@@ -1,0 +1,76 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom right, #e0eafc, #cfdef3); /* Soft gradient background */
+}
+
+/* Container for the anime list */
+#anime-container {
+    max-width: 800px; /* Maximum width for the container */
+    margin: 20px auto; /* Center the container with top margin */
+    padding: 20px; /* Padding for the container */
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners for the container */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+}
+
+/* Anime card styles */
+.anime-card {
+    background: #E6E6FA; /* Light Sky Blue */
+    border: 1px solid #ddd; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    padding: 15px; /* Padding inside cards */
+    margin: 10px 0; /* Space between cards */
+    transition: box-shadow 0.3s; /* Transition for hover effect */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+/* Anime card hover effect */
+.anime-card:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3); /* Darker shadow on hover */
+}
+
+/* Styles for anime info */
+.anime-info {
+    text-align: center; /* Center align the text in the card */
+}
+
+/* Styles for anime images */
+.anime-info img {
+    max-height: 300px; /* Fixed maximum height for images */
+    width: auto; /* Maintain aspect ratio */
+    margin: 10px 0; /* Space around the image */
+}
+
+/* Styles for anime titles */
+.anime-info h3 {
+    margin: 0; /* Remove default margin */
+    color: #333; /* Dark gray color for title */
+    font-size: 1.5em; /* Increased font size for titles */
+}
+
+/* Styles for paragraphs */
+.anime-info p {
+    margin: 5px 0; /* Vertical spacing for paragraphs */
+    color: #555; /* Medium gray color for text */
+}
+
+/* Header styles */
+h1 {
+    text-align: center; /* Center the header text */
+    margin: 20px 0; /* Space above and below the header */
+    color: #333; /* Dark gray color for the header */
+}
+
+/* Add a footer with a gradient background */
+footer {
+    text-align: center;
+    padding: 10px 0; /* Padding for footer */
+    background: linear-gradient(to top right, #ffe0b2, #fff3e0); /* Light gradient */
+    color: #333; /* Dark text color */
+    position: relative; /* Position relative for footer */
+    bottom: 0; /* Stick to bottom */
+    width: 100%; /* Full width */
+}
